@@ -1,0 +1,14 @@
+#modules:
+#  account:
+#    foo: 'bar'
+
+doctrine:
+  entity_managers:
+    default:
+      mappings:
+        Chaos\Modules\Account\Entity:
+          mapping: true
+          type: 'annotation'
+          dir: '%base_path%/modules/core/Account/src/Entity'
+          alias: 'Account'
+          use_simple_annotation_reader: false

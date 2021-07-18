@@ -1,0 +1,34 @@
+{
+  "name": "chaos/account",
+  "description": "Account module",
+  "type": "chaos-module",
+  "keywords": [
+    "vietnam",
+    "account",
+    "module"
+  ],
+  "homepage": "https://github.com/ntd1712",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ntd1712",
+      "email": "ntd1712@mail.com"
+    }
+  ],
+  "require": {
+    "oomphinc/composer-installers-extender": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chaos\\Modules\\Account\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "installer-name": "Account"
+  }
+}
